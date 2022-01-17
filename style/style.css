@@ -2,14 +2,20 @@
   margin: 0;
   box-sizing: border-box;
   font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  cursor: none;
 }
 
-.mt16{
-    margin-top: 16px;
+.mt16 {
+  margin-top: 16px;
+}
+
+.mt48 {
+  margin-top: 48px;
 }
 
 .color-white {
-    color: #fff;
+  color: #fff;
 }
 
 .container {
@@ -32,6 +38,7 @@
 .title {
   text-align: center;
   padding-top: 16px;
+  font-size: 24px;
 }
 
 .header {
@@ -45,26 +52,26 @@
   text-align: center;
 }
 
-.facebook {
+.icon {
   background-color: rgba(51, 51, 51, 0.5);
   position: relative;
 }
 
-.icon-facebook {
-    font-size: 48px;
-    padding-left: 16px;
-    padding-top: 3px;
+.icon-position {
+  font-size: 46px;
+  padding-left: 16px;
+  padding-top: 4px;
 }
 
-.icon {
-    position: absolute;
-    top: 0;
-    left: 0;
-    min-width: 80px;
+.icon-style {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 80px;
 }
 
-.facebook a {
-    display: flex;
+.icon a {
+  display: flex;
   text-decoration: none;
   color: #fff;
   height: 54px;
@@ -73,4 +80,12 @@
 }
 
 .footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loading img {
+  min-height: 209px;
+  min-width: 200px;
 }
